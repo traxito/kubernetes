@@ -26,3 +26,5 @@ Creació cluster minikube
 Creació de cluster de kubernetes: minikube start --cpus=2 --memory=2000mb --disk-size=10000mb (REQUERIMENTS MÍNIMS)
 
 comprobar que tot està bé: minikube status
+Aturar el cluster: minikube stop
+Reiniciar: minikube restart
