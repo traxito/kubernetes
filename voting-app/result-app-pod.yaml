@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: result-voting-app
-      image: kodekloud/exampleresultgapp_vote:v1
+      image: kodekloud/exampleresultapp_vote:v1
       ports:
         - containerPort: 80
