@@ -22,6 +22,6 @@ spec:
         image: kodekloud/examplevotingapp_worker:v1
         resources:
           limits:
-            memory: "128Mi"
+            memory: "64Mi"
             cpu: "500m"
 

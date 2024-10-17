@@ -7,7 +7,7 @@ metadata:
     app: demo-voting-app
 spec:
 #because is facing external connection, we use NodePort
-  type: NodePort
+  type: LoadBalancer
   selector:
     name: result-app-pod
     app: demo-voting-app
